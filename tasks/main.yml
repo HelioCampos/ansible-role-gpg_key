@@ -9,8 +9,8 @@
 
 - include: common.yml
 
-- include: gen.yml
-  when: gpg_key_gen_enable
+#- include: gen.yml
+#  when: gpg_key_gen_enable
 
 - include: import.yml
   when: gpg_key_import_enable
